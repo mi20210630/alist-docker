@@ -1,6 +1,6 @@
 FROM xhofe/alist:latest
 LABEL MAINTAINER="i@nn.ci"
-VOLUME /opt/alist/data/
+#VOLUME /opt/alist/data/
 WORKDIR /opt/alist/
 COPY entrypoint.sh /entrypoint.sh
 COPY install.sh /install.sh
